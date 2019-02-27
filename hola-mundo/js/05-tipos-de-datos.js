@@ -11,5 +11,12 @@ window.addEventListener("load", function(event) {
   var numero_entero = 44;
   var cadena ="Hola 'que' tal";
 
-  console.log(String(numero_entero));
+  var v_o_f = false;
+  var numero_falso = 33.4;
+
+
+  console.log(typeof numero_entero);
+  console.log(typeof cadena);
+  console.log(typeof v_o_f);
+  console.log(typeof numero_falso);
 });
